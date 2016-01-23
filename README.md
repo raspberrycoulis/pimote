@@ -35,4 +35,4 @@ Can be run via Crontab. For example:
 	# Turn off Dining Room Light at the Weekend at 7:30pm
 	30 19 * * 6,0 /usr/bin/python /home/pi/automation/socket1-off.py
 
-This will turn all lights on at 15:30 and off at 23:15 everday.
+This will turn lights on and off at designated times throughout the week, including a varied schedule at the weekend.
